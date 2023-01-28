@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio Website | HTML, CSS ,JS</title>
+    <script src="https://kit.fontawesome.com/991e1a87ab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class="container">
+            <nav>
+                <img src="images/images (2).png" class="logo">
+                <ul id="sideMenu()">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+                <div class="header-text">
+                    <div class="col-1">
+                        <p>Electrical and Communications Engineer</p>
+                        <p>Front-End Web Developer</p>
+                        <h1><span>Davis Kiprotich</span></h1>
+                    </div>
+                    <div class="col-1-img">
+                        <img src="images/Viking.jpg" class="header-logo">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+<!-------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/lion sitting.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1><br>
+                    <p>I am an adaptable professional who has been consistently praised as hard-working by my co-workers and management. Over the course of my career, I’ve developed a skill set directly relevant to the role you are hiring for, including project planning, productivity improvement and product design. Overall, I have consistently demonstrated interpersonal, leadership and teamwork abilities in every aspect of my Electrical and Communications engineering role.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Responsive Web Design</span><br>Designing Web Applications</li>
+                            <li><span>Electrical Engineering</span><br>Design and Installation of electrical machines</li>
+                            <li><span>Communications Engineering</span><br>Design and connection of communication components</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb 2021 - April 2021 (Attachee at Rivatex E.A Ltd)</span><br>Design and Installation of electrical machines<br>Troubleshooting of frequency drives<br>Rooting and carding of cables<br>Rewinding and replacing of motors</li>
+                            <li><span>June 2021 - August 2021 (Attachee at Uasin-Gishu Gov.)</span><br>No load and load loss measurements<br>Designing of electrical plan<br>Resolving Electrical issues<br>Budgeting and purchasing of electrical components</li>
+                            <li><span>Nov 2022 - Dec 2022 (Graduate trainee at Kilibwoni Tea Factory)</span><br>Maintenance of electrical machinery<br>Designing of electrical plan<br>Welding and grinding<br>Installation of new machines</li>
+                            <li><span>Sep 2022 - Present (Web Design at freelance)</span><br>Responsive Web Design<br>Data structures and algorithms(JavaScript)<br>Object Oriented Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Present (freeCodeCamp.org)</span><br>Responsive Web Design<br>Object Oriented Programming<br>Data structures and algorithms(JavaScript)</li>
+                            <li><span>2016 - 2022 (Moi University)</span><br>BEng. Electrical and Communications Engineering</li>
+                            <li><span>2011 - 2015 (Litein Boys High School)</span><br>Kenya Certificate of Secondary Education</li>
+                            <li><span>2001 - 2010 (Tengecha Boys Primary School)</span><br>Kenya Certificate of Primary Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Responsive Web Design</h2>
+                    <p>I design responsive websites using HTML,CSS and JavaScript.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-light fa-lightbulb"></i>
+                    <h2>Electrical Installation</h2>
+                    <p>I diagnose ,design electrical plan and install electrical machines and devices.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-light fa-wifi-slash"></i>
+                    <h2>Communication Networks</h2>
+                    <p>I design responsive websites using HTML,CSS and JavaScript.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------portfolio---------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/images (5).jpeg" >
+                    <div class="layer">
+                        <h3>Web Applications.</h3>
+                        <p>Our Websites connect you to a wide variety of resources</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images (7).jpeg">
+                    <div class="layer">
+                        <h3>Electrical Engineering</h3>
+                        <p>We design ,develop,test and supervise the manufacture of electrical equipments.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images (8).jpeg">
+                    <div class="layer">
+                        <h3>Communication</h3>
+                        <p>We aid the systems that transfer information from one point to another</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-----------------contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> davyzkorir@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +254727111264</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Kiprotich Davis Official.docx" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="7" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Davis by aid of Easy Tutorials</p>
+        </div>
+    </div>
+<!--------toggle for js----------->
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+            for(let tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(let tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        sideMenu = document.getElementById('sideMenu');
+
+        function openMenu() {
+            sideMenu.style.right = "0";
+        }
+        function closeMenu() {
+            sideMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
