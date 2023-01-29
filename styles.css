@@ -312,6 +312,13 @@ form .btn2{
 nav .fas{
     display: none;
 }
+
+#msg{
+    font-size: 14px;
+    color:#61b752;
+    margin-top: -45px;
+}
+
 /*------------------media queries------------*/
 @media only screen and (max-width: 600px){
     .header-text img{
