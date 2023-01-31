@@ -24,17 +24,16 @@
                 <i class="fas fa-bars" onclick="openMenu()"></i>
                 <div class="header-text">
                     <div class="col-1">
-                        <p>Electrical and Communications Engineer</p>
-                        <p>Front-End Web Developer</p>
-                        <h1><span>Davis Kiprotich</span></h1>
+                        <p><span class="auto-type"></span></p>
+                        <h1>KIPROTICH DAVIS</h1>
                     </div>
-                    <div class="col-1-img">
-                        <img src="images/Viking.jpg" class="header-logo">
+                    <div class="img">
+                        <img src="images/dpi.jpeg" class="header-logo">
                     </div>
                 </div>
             </nav>
         </div>
-    </div>
+    </div><br>  
 <!-------------about------------->
     <div id="about">
         <div class="container">
@@ -89,13 +88,13 @@
                     <a href="#">learn more</a>
                 </div>
                 <div>
-                    <i class="fa-light fa-lightbulb"></i>
+                    <i class="fa-regular fa-lightbulb"></i>
                     <h2>Electrical Installation</h2>
                     <p>I diagnose ,design electrical plan and install electrical machines and devices.</p>
                     <a href="#">learn more</a>
                 </div>
                 <div>
-                    <i class="fa-light fa-wifi-slash"></i>
+                    <i class="fa-light fa-satellite-dish"></i>
                     <h2>Communication Networks</h2>
                     <p>I design responsive websites using HTML,CSS and JavaScript.</p>
                     <a href="#">learn more</a>
@@ -169,6 +168,16 @@
         </div>
     </div>
 <!--------toggle for js----------->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ['Electrical Engineer', 'Communications Engineer', 'Front-end Web Developer'],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
     <script>
         var tablinks = document.getElementsByClassName('tab-links');
         var tabcontents = document.getElementsByClassName('tab-contents');
