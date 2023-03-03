@@ -61,18 +61,23 @@ nav ul li a:hover::after{
 .header-text p{
     font-size: 30px;
     margin-top: 10%;
+    color: #ff004f;
 }
 .header-text h1{
     font-size: 60px;
     margin-top: 20%;
-    color:#ff004f;   
+    color: #fff;
 }
+
+
 .header-text img{
     max-width: 100%;
     max-height: 100%;
     margin: auto;
-    display: block;
+    display: flex;
+    align-items: center;
     overflow: hidden;
+    border-radius: 70%
 }
 /*------------------about----------------*/
 #about{
@@ -203,7 +208,8 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: absolute;
     left: 0;
-    bottom: 0;overflow: hidden;
+    bottom: 0;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -312,6 +318,13 @@ form .btn2{
 nav .fas{
     display: none;
 }
+
+#msg{
+    font-size: 14px;
+    color:#61b752;
+    margin-top: -450px;
+}
+
 /*------------------media queries------------*/
 @media only screen and (max-width: 600px){
     .header-text img{
@@ -368,6 +381,9 @@ nav .fas{
     }
     .tab-contents ul li{
         font-size: 18px;
+    }
+    .services-list{
+        flex-basis: 100%;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
